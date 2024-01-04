@@ -1,0 +1,29 @@
+{
+    "name": "sitemap-generator-static-suite",
+    "version": "1.0.5",
+    "description": "Generador de sitemaps para proyectos static-suite que emplear un iterador sobre todos los contenidos creados al más puro estilo Bidasoa.",
+    "keywords": [
+        "bidasoa",
+        "static-suite",
+        "sitemap"
+    ],
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build-node": "tsc src/index.ts --outDir dist",
+        "build": "webpack --config webpack.config.js && yarn build-node"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.13",
+        "@types/node": "^20.10.6",
+        "typescript": "^5.3.3",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "ts-loader": "^9.5.1",
+        "webpack": "^5.89.0"
+    }
+}
