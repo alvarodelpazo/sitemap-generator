@@ -1,5 +1,5 @@
 {
-    "name": "sitemap-generator-static-suite",
+    "name": "@biko/sitemap-generator-static-suite",
     "version": "1.0.5",
     "description": "Generador de sitemaps para proyectos static-suite que emplear un iterador sobre todos los contenidos creados al más puro estilo Bidasoa.",
     "keywords": [
